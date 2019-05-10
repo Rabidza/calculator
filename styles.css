@@ -1,0 +1,28 @@
+body {
+  width: 50%;
+  padding-left: 25%;
+}
+
+.grid-container {
+  display: grid;
+  grid-gap: 5px;
+  background-color: #2196F3;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+#screen {
+  grid-column-start: 1;
+  grid-column-end: 6;
+}
+
+#item-equal {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
